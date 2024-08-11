@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>タイトル名表示テスト</title>
+  <meta charset="UTF-8">
+  <title>タイトル名表示テスト</title>
+  <style>
+    body{
+      background-color: #BBB;
+      font-size: 16px;
+      font-family: 'arial','Hiragino Sans','meiryo',sans-serif;
+    }
+    header{
+      width: 1240px;
+      margin: 0 auto 44px;
+    }
+
+    
+    div{
+      width: 1240px;
+      background-color: #CCC;
+      margin: 0 auto 50px;
+      display: flex;
+    }
+    main{
+      flex-basis: 920px;
+      margin: 10px;
+    }
+    aside{
+      flex-basis: 250px;
+      margin: 20px;
+    }
+    aside nav h2{
+      text-align: center;
+    }
+    footer{
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-こんにちは
+<header>
+  <h1>○○○○○で△△を□□たい</h1>
+  <p>ニュースなどの世の中の出来事についてひとこと</p>
+</header>
+<div>
+  <aside>
+    <nav>
+      <fieldset>
+        <h2>LINK</h2>
+        <ul>
+          <li><a href="https://www3.nhk.or.jp/news/">NHK</a></li>
+          <li><a href="https://www.jiji.com/">時事通信</a></li>
+          <li><a href="https://www.kyodo.co.jp/">共同通信</a></li>
+          <li><a href="https://www.nikkei.com/">日経新聞</a></li>
+        </ul>
+      </fieldset>
+    </nav>
+  </aside>
+  <main>
+    <article>
+      <fieldset>
+        <legend>2024.08.11</legend>
+        <p><a href="https://www.jiji.com/jc/article?k=2024081100371&g=soc">フワちゃん、芸能活動休止<small>@時事通信</small></a><br>
+        近年まれにみるSNSによる大きな事故。時間が経てばある程度ほとぼりは冷めそうだけ果たして戻ってこれるのか。</p>
+        <p><a href="https://www3.nhk.or.jp/news/html/20240811/k10014545681000.html">台風5号 あす東北に上陸の見込み 線状降水帯発生のおそれも<small>@NHK</small></a><br>
+        もうそんな季節か。</p
+      </legend>
+    </article>
+  </main>
+</div>
+<footer>
+<p><small>© GoldenBat-vim 2024</small></p>
+</footer>
 </body>
-</html>
+  </html>
 
