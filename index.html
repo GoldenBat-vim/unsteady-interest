@@ -2,92 +2,124 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
   <title>de wo tai</title>
   <style>
     body{
-      background-color: #BBF;
-      font-size: 16px;
+      background-color: #CCF;
       font-family: 'arial','Hiragino Sans','meiryo',sans-serif;
     }
     header{
-      width: 1240px;
-      margin: 0 auto 44px;
-    }
-    header h1{
-      margin-left: 10px;
-    }
-     
-    header p{
-      font-size: 18px;
+      margin: 0 auto;
       text-align: center;
-   }
-
+    }
+    header p{
+      font-size: 12px;
+    }
     div{
-      width: 1240px;
-      margin: 0 auto 50px;
-      display: flex;
+      width: 90%;
+      margin: 0 auto;
       background-color: #EEE;
     }
     main{
-      flex-basis: 920px;
-      margin: 10px;
+      width: 80%;
+      margin: 0 auto;
     }
+
+    h1{
+      margin-bottom:0;
+      padding-top: 20px;
+      font-size: 24px;
+    }
+    header h1{
+      font-size: 28px;
+    }
+    aside h1{
+      margin-top:0;
+      margin-bottom:0;
+      font-size: 24px;
+    }
+
+    section{
+      padding-bottom: 10px;
+    }
+
     aside{
-      flex-basis: 250px;
-      margin: 20px;
-    }
-    aside nav h2{
-      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 20px;
+
     }
     footer{
       text-align: center;
     }
-  </style>
+
+    .space-less{
+     margin:0 0 0.2em; /*上 左右 下*/
+    }
+    .gray{
+      color: #777;
+    }
+   .hr1 {
+     border-top: 0.5px solid #555;
+   }
+   </style>
+
 </head>
 <body>
 <header>
   <h1>○○○○○ de △△ wo □□ tai</h1>
-  <p>ニュースなどの世の中の出来事についてひとこと</p>
+  <p>日記とニュースなどの世の中の出来事についてひとこと</p>
 </header>
 <div>
  <main>
-    <article>
-      <fieldset>
-        <legend>2024.08.12</legend>
-        <p>最近、WOWOWのレジデントエイリアン３が好きで見てるんだけど、気づいたらお腹の中の子供がいなくなった母親の反応が現実的で怖くなる。</p>
-        <p><a href="https://www.nhk.or.jp/aomori/lreport/article/002/39/">青森でいま話題の「風呂道具 IN CAR」ステッカー<small>@NHK青森WEB</small></a><br>車で風呂に入るかと思ったら、ただの風呂ファンが車に風呂道具を常備してるだけだった</>
-        <p><a href="https://www3.nhk.or.jp/news/html/20240810/k10014545711000.html">卓球 女子団体 日本が銀 4大会連続のメダル 五輪<small>@NHK</small></a><br>中国強い</p>
-        <p><a href="https://www.jiji.com/jc/article?k=2024081200051&g=spo">パリ五輪、熱戦に幕　日本、海外最多金２０―国・地域別３位と躍進〔五輪〕<small>@時事通信</small></a><br>
-        <p><a href="https://www.jiji.com/jc/paris2024?jfpage_1=og2024_slh_medals_slh_index.html&s=data">パリオリンピック メダル（国別メダルランキング）<small>@時事通信</small></a><br>
-        最近疲れぎみでほとんど見てなかった。日本の獲得メダル数は３位だったのを知ってもっと見とけば良かったと後悔してる</p>
-      </fieldset>
+   <h1>2024.08.12</h1>
+   <hr class="hr1">
+   <article>
+     <p>最近、WOWOWのレジデントエイリアン３を好きで視聴している　いつのまにかお腹の中の子供がいなくなった母親の反応が妙にリアルで怖い</p>
+     <section>
+       <p class="space-less"><a href="https://www.nhk.or.jp/aomori/lreport/article/002/39/">青森でいま話題の「風呂道具 IN CAR」ステッカー<small>@NHK青森WEB</small></a></p>
+       <p class="space-less gray">車で風呂に入るかと思ったら、ただの風呂ファンが車に風呂道具を常備してるだけだった</p>
+     </section>
       
-      <fieldset>
-        <legend>2024.08.11</legend>
-        <p><a href="https://www.jiji.com/jc/article?k=2024081100371&g=soc">フワちゃん、芸能活動休止<small>@時事通信</small></a><br>
-        近年まれにみるSNSによる大きな事故。時間が経てばある程度ほとぼりは冷めそうだけど果たして戻ってこられるのか</p>
-        <p><a href="https://www3.nhk.or.jp/news/html/20240811/k10014545681000.html">台風5号 あす東北に上陸の見込み 線状降水帯発生のおそれも<small>@NHK</small></a><br>
-        秋の訪れを感じる</p
-      </legend>
-    </article>
+     <section>
+       <p class="space-less"><a href="https://www3.nhk.or.jp/news/html/20240810/k10014545711000.html">卓球 女子団体 日本が銀 4大会連続のメダル 五輪<small>@NHK</small></a></p>
+       <p class="space-less gray">中国強い</p>
+     </section>
+     <section>
+       <p class="space-less"><a href="https://www.jiji.com/jc/article?k=2024081200051&g=spo">パリ五輪、熱戦に幕　日本、海外最多金２０―国・地域別３位と躍進〔五輪〕<small>@時事通信</small></a></p>
+       <p class="space-less"><a href="https://www.jiji.com/jc/paris2024?jfpage_1=og2024_slh_medals_slh_index.html&s=data">パリオリンピック メダル（国別メダルランキング）<small>@時事通信</small></a></p>
+       <p class="space-less gray">最近疲れぎみでほとんど見てなかった。日本の獲得メダル数は３位だったのを知ってもっと見とけば良かったと後悔してる</p>
+     </section>
+   </article>
+
+   <h1>2024.08.11</h1>
+   <hr class="hr1">
+   <article>
+     <section>
+       <p class="space-less"><a href="https://www.jiji.com/jc/article?k=2024081100371&g=soc">フワちゃん、芸能活動休止<small>@時事通信</small></a></p>
+       <p class="space-less gray">近年まれにみるSNSによる大きな事故。時間が経てばある程度ほとぼりは冷めそうだけど果たして戻ってこられるのか</p>
+     </section>
+     <section>
+       <p class="space-less"><a href="https://www3.nhk.or.jp/news/html/20240811/k10014545681000.html">台風5号 あす東北に上陸の見込み 線状降水帯発生のおそれも<small>@NHK</small></a></p>
+       <p class="space-less gray">秋の訪れを感じる</p>
+     </section>
+   </article>
   </main>
   <aside>
-    <nav>
-      <fieldset>
-        <h2>LINK</h2>
-        <ul>
-          <li><a href="https://www3.nhk.or.jp/news/">NHK</a></li>
-          <li><a href="https://www.jiji.com/">時事通信</a></li>
-          <li><a href="https://www.kyodo.co.jp/">共同通信</a></li>
-          <li><a href="https://www.nikkei.com/">日経新聞</a></li>
-        </ul>
-      </fieldset>
-    </nav>
+    <h1>LINK</h1>
+    <hr class="hr1">
+    <ul>
+      <li><a href="https://www3.nhk.or.jp/news/">NHK</a></li>
+      <li><a href="https://www.jiji.com/">時事通信</a></li>
+      <li><a href="https://www.kyodo.co.jp/">共同通信</a></li>
+      <li><a href="https://www.nikkei.com/">日経新聞</a></li>
+    </ul>
   </aside>
  </div>
 <footer>
-<p><small>© GoldenBat-vim 2024</small></p>
+  <p><small>© GoldenBat-vim 2024</small></p>
 </footer>
 </body>
-  </html>
+</html>
 

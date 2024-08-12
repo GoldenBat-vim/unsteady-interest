@@ -46,5 +46,4 @@ with a mona lisa smile,
 he is sitting nect to a upright piano, 
 he is outdoor in a field of giant dahila flowers, 
 very cinematic, 
-beautiful lighting, 
-wide angle lens
+beautiful lighting, wide angle lens
